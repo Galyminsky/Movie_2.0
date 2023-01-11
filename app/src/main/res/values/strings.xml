@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Movie 2.0</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="title_image">Title Image</string>
 </resources>

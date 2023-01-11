@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id "org.jetbrains.kotlin.kapt"
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -78,4 +79,6 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-service:2.5.1'
     implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
     implementation 'androidx.lifecycle:lifecycle-reactivestreams-ktx:2.5.1'
+
+    implementation 'org.jetbrains.kotlin:kotlin-android-extensions:1.8.0'
 }

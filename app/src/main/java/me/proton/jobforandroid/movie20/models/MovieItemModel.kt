@@ -1,6 +1,6 @@
 package me.proton.jobforandroid.movie20.models
 
-data class Result(
+data class MovieItemModel(
     val adult: Boolean,
     val backdrop_path: String,
     val genre_ids: List<Int>,
